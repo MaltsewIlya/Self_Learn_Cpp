@@ -13,19 +13,19 @@ int main()
 	cout << "Welcome, " << first_name << endl;
 	cout << "Enter this year... ";
 	cin >> year;
-	if (year <= 0)	//провер€ем введен ли год верно, если нет запрашиваем ввести год снова;
+	if (year <= 0)	
 	{
 		cout << "Enter the correct year... ";
 		cin >> year;
 	}
 	cout << "Enter your age... ";
 	cin >> age;
-	if (age < 0 || age >= year)	//провер€ем введен ли возраст верно, если нет запрашиваем ввести год снова;
+	if (age < 0 || age >= year)	
 	{
 		cout << "Enter the correct age... ";
 		cin >> age;
 	}
-	int born = year - age; // –асчитываем год рождени€ от полученных данных от пользовател€;
+	int born = year - age; 
 	cout << "You were born, " << born << " year" << endl;
 		
 }
